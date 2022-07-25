@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&display=swap');
+
+/*font-family: 'Recursive', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+/*font-family: 'Righteous', cursive;*/
+
+body {
+    background-color: #FB6B6B;
+    display: flex;
+    justify-content: center;
+    width: 375px;
+    height: 667px;
+    
+}
+
+.root {
+    font-family: 'Recursive', sans-serif;
+    
+}
+
+.pagina {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+    height: 200px;
+}
+
+.pagina img {
+    width: 136px;
+    height: 161px;
+}
+
+.pagina > h1 {
+    font-family: 'Righteous', cursive;
+    font-size: 36px;
+    color: white;
+    margin: 30px 0 30px 0;
+}
+
+.pagina button {
+    border: 1px #D70900 solid;
+    width: 246px;
+    height: 54px;
+    border-radius: 5px;
+    color: #D70900;
+    font-family: 'Recursive', sans-serif;
+    box-shadow: 0 2px rgba(39, 39, 39, 0.2);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+button:hover, Link:hover{
+    cursor: pointer;
+}
+
+
+.header{
+    font-family: 'Righteous', cursive;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+   display: flex;
+   justify-content: space-around;
+}
+
+.header img {
+    width: 52px;
+    height: 60px;
+}
+
+.deck {
+    padding-bottom: 80px;
+}
+
+.card {
+    min-height: 65px;
+    max-height: 131px;
+    height: auto;
+    width: 300px;
+    background-color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    box-shadow: 0 2px rgba(39, 39, 39, 0.2);
+    margin-bottom: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+.card ion-icon {
+    font-size:  30px;
+}
+
+.virado {
+    align-items: unset;
+    padding-top: 18px;
+    font-weight: 400;
+    font-size: 18px;
+    height: 131px;
+}
+
+.virado img {
+    width: 25px;
+    margin-top: 85px;
+    padding-bottom: 10px;
+}
+
+.resposta {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.botoes {
+    display: flex;
+    align-items: inline;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.botoes button {
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-family: 'Recursive', sans-serif;
+    font-weight: 400;
+}
+
+.red {
+    width: 85.17px;
+    height: 37.17px;
+    background-color: #FF3030;
+    
+}
+
+.orange {
+    width: 85.17px;
+    height: 37.17px;
+    background-color: #FF922E;
+}
+
+.green {
+    width: 85.17px;
+    height: 37.17px;
+    background-color: #2FBE34;
+}
+
+
+.footer {
+    height: auto;
+    min-height: 70px;
+    width: 375px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding: 21px;
+    font-size: 18px;
+}
+
+.footer h1 {
+    margin: 10px;
+    font-weight: bold;
+}
+
+.footer h2 {
+    margin: 10px;
+    word-wrap: break-word;
+    font-size: 18px;
+}
+
+.footer button {
+    font-family: 'Recursive', sans-serif;
+    background-color: #FB6B6B;
+    color: white;
+    font-size: 14px;
+    border: 0;
+    border-radius: 5px;
+    height: 32px;
+    width: 167px;
+}
+
+.icon {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    font-size: 23px;
+}
+
+.tachado {
+    text-decoration: line-through;
+}
+
+.wrong {
+    color: red;
+}
+
+.almost {
+
+        color: orange
+}
+
+.right {
+    color: green;
+}

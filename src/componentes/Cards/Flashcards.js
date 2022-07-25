@@ -10,6 +10,12 @@ export default function Flashcards () {
     const [answered, setAnswered] = useState(0)
     const [results, setResults] = useState([])
 
+    function embaralhar () {
+        return Math.random() - 0.5;
+    }
+    
+    deckJSX.sort(embaralhar)
+
     let perguntasData = deckJSX.map(value => {
         return {
             ...value,

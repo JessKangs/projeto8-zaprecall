@@ -12,11 +12,12 @@ body {
     justify-content: center;
     width: 375px;
     height: 667px;
-    
+
 }
 
 .root {
     font-family: 'Recursive', sans-serif;
+   
     
 }
 
@@ -74,7 +75,7 @@ button:hover, Link:hover{
 }
 
 .deck {
-    padding-bottom: 80px;
+    padding-bottom: 130px;
 }
 
 .card {
@@ -163,7 +164,7 @@ button:hover, Link:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items:center;
+    align-items: center;
     position: fixed;
     bottom: 0;
     left: 0;
@@ -177,9 +178,9 @@ button:hover, Link:hover{
 }
 
 .footer h2 {
-    margin: 10px;
-    word-wrap: break-word;
+    margin: 10px 0 10px 0;
     font-size: 18px;
+    text-align: center;
 }
 
 .footer button {
